@@ -4,7 +4,7 @@
         "module": "commonjs", // Especifica o formato de módulo gerado.
         "lib": ["ESNext", "DOM"], // Especifica as bibliotecas que estarão disponíveis durante a compilação.
         "rootDir": "./src", // Especifica a pasta raiz dentro dos arquivos de origem.
-        "outDir": "./dist/assets/js", // Especifica a pasta de saída para arquivos emitidos.
+        "outDir": "./frontend/assets/js", // Especifica a pasta de saída para arquivos emitidos.
         "allowJs": true, // Permite JavaScript files serem parte do programa.
         "sourceMap": true, // Cria arquivos de mapa de origem para JavaScript emitidos.
         "removeComments": true, // Desabilita a emissão de comentários.

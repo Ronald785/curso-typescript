@@ -4,9 +4,10 @@
     "description": "TypeScript do básico ao avançado",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
         "lint": "eslint .",
-        "format": "prettier --write ."
+        "format": "prettier --write .",
+        "build": "tsc",
+        "webpack": "webpack -w"
     },
     "keywords": [],
     "author": "",
@@ -18,8 +19,11 @@
         "eslint-config-prettier": "^9.0.0",
         "eslint-plugin-prettier": "^5.0.0",
         "prettier": "^3.0.3",
+        "ts-loader": "^9.4.4",
         "ts-node": "^10.9.1",
-        "typescript": "^5.2.2"
+        "typescript": "^5.2.2",
+        "webpack": "^5.88.2",
+        "webpack-cli": "^5.1.4"
     },
     "dependencies": {
         "lodash": "^4.17.21",
