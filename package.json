@@ -9,7 +9,8 @@
         "build": "tsc",
         "webpack": "webpack -w",
         "test": "jest",
-        "test:silent": "jest --watchAll --silent --noStackTrace"
+        "test:silent": "jest --watchAll --silent --noStackTrace",
+        "test:report": "jest --coverage --silent --noStackTrace"
     },
     "keywords": [],
     "author": "",
