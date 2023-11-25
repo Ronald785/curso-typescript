@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import { useInterval } from "../hooks/use-interval";
 import Button from "./button";
 import { Timer } from "./timer";
@@ -39,24 +39,40 @@ export function PomodoroTimer(props: Props) {
         timeCounting ? 1000 : null,
     );
 
-    const configureWork = () => {
+    const configureWork = useCallback(() => {
         setTimeCounting(true);
         setWorking(true);
         setResting(false);
         setMainTime(props.pomodoroTime);
         audioStartWorking.play();
-    };
+    }, [
+        setTimeCounting,
+        setWorking,
+        setResting,
+        setMainTime,
+        props.pomodoroTime,
+    ]);
 
-    const configureRest = (long: boolean) => {
-        setTimeCounting(true);
-        setWorking(false);
-        setResting(true);
+    const configureRest = useCallback(
+        (long: boolean) => {
+            setTimeCounting(true);
+            setWorking(false);
+            setResting(true);
 
-        if (long) setMainTime(props.longRestTime);
-        else setMainTime(props.shorRestTime);
+            if (long) setMainTime(props.longRestTime);
+            else setMainTime(props.shorRestTime);
 
-        audioStopWorking.play();
-    };
+            audioStopWorking.play();
+        },
+        [
+            setTimeCounting,
+            setWorking,
+            setResting,
+            setMainTime,
+            props.longRestTime,
+            props.shorRestTime,
+        ],
+    );
 
     useEffect(() => {
         if (working) document.body.classList.add("working");
@@ -88,12 +104,15 @@ export function PomodoroTimer(props: Props) {
     ]);
     return (
         <div className="pomodoro">
-            <h2>You are: Working</h2>
+            <h2>Você está: {working ? "Trabalhando" : "Descansando"}</h2>
             <Timer mainTime={mainTime}></Timer>
             <div className="controls">
-                <Button text="Work" onClick={() => configureWork()}></Button>
                 <Button
-                    text="Rest"
+                    text="Trabalhar"
+                    onClick={() => configureWork()}
+                ></Button>
+                <Button
+                    text="Descansar"
                     onClick={() => configureRest(false)}
                 ></Button>
                 <Button
