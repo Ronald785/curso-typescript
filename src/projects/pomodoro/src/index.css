@@ -21,6 +21,10 @@ body {
     background: #ef5d50;
 }
 
+.hidden {
+    display: none;
+}
+
 .pomodoro {
     background: #fff;
     margin: 50px 20px;
