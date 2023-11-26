@@ -4,9 +4,9 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it uses a non-standard name for the exports (exports).
 (() => {
 var exports = __webpack_exports__;
-/*!*********************************************************!*\
-  !*** ./src/classInterfacePOO/Aula35-exercicio/index.ts ***!
-  \*********************************************************/
+/*!*****************************************************!*\
+  !*** ./src/section20-POO/Aula35-exercicio/index.ts ***!
+  \*****************************************************/
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 class VideoPlayer {

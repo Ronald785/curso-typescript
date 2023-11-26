@@ -2,7 +2,8 @@ const path = require("path");
 
 module.exports = {
     mode: "development",
-    entry: "./src/classInterfacePOO/Aula35-exercicio/index.ts",
+    // entry: "./src/section19-basicTypes/Aula19-exercicio/index.ts",
+    entry: "./src/section20-POO/Aula35-exercicio/index.ts",
     module: {
         rules: [
             {
@@ -20,7 +21,8 @@ module.exports = {
     },
     output: {
         filename: "bundle.js",
-        path: path.resolve(__dirname, "frontend", "assets", "js"),
+        // path: path.resolve(__dirname, "projects", "form", "assets", "js"),
+        path: path.resolve(__dirname, "projects", "video", "assets", "js"),
     },
     devtool: "source-map",
 };
