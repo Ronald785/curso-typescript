@@ -13,7 +13,7 @@
 <br>
 
 <p align="center">
-  <img alt="repository" title="repository" src="./src/images/repository.png" width="70%">
+  <img alt="repository" title="repository" src="./src/images/repository.png" width="80%">
 </p>
 
 ## 📚 Curso
@@ -23,20 +23,20 @@ TypeScript - um superset do JavaScript com tipagem estática (front-end e back-e
 
 ## ✍🏾 Aulas
 
--   [Tipos TS básicos]("./src/section19-basicTypes")
--   [Tipos TS Avançados]("./src/section21-advancedTypes")
--   [Tipos TS Genéricos]("./src/section22-genericTypes")
--   [SOLID]("./src/section25-SOLID")
--   [POO]("./src/section20-POO")
--   [JEST]("./src/section26-Jest")
--   [NamespacesAndModules]("./src/section24-Namespaces")
--   [Decorators]("./src/section23-Decorators")
+-   [Tipos TS básicos](./src/section19-basicTypes)
+-   [Tipos TS Avançados](./src/section21-advancedTypes)
+-   [Tipos TS Genéricos](./src/section22-genericTypes)
+-   [SOLID](./src/section25-SOLID)
+-   [POO](./src/section20-POO)
+-   [JEST](./src/section26-Jest)
+-   [NamespacesAndModules](./src/section24-Namespaces)
+-   [Decorators](./src/section23-Decorators)
 
 ## ✍🏾 Projetos
 
--   [Pomodoro]("./projects/pomodoro")
--   [Video Controls]("./projects/video")
--   [Form Validation]("./projects/form")
+-   [Pomodoro](./projects/pomodoro)
+-   [Video Controls](./projects/video)
+-   [Form Validation](./projects/form)
 
 ## 📬 Contate-me
 
