@@ -3,25 +3,40 @@
 </h1>
 
 <p align="center">
-  <a href="#-aulas">Aulas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-curso">Curso</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-aulas">Aulas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projetos">Projetos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-contate-me">Contate-me</a>
 </p>
 
 <br>
 
 <p align="center">
-  <img alt="javascriptImage" title="javascriptImage" src="https://softdesign.com.br/wp-content/webpc-passthru.php?src=https://softdesign.com.br/wp-content/uploads/2021/04/MicrosoftTeams-image-3-1.png&nocache=1" width="70%">
+  <img alt="repository" title="repository" src="./src/images/repository.png" width="70%">
 </p>
-
-## ✍🏾 Aulas
-
--   [Tipos básicos]("./src/basicTypes")
 
 ## 📚 Curso
 
 Curso Udemy de <strong>TypeScript</strong> do básico ao avançado.<br/>
 TypeScript - um superset do JavaScript com tipagem estática (front-end e back-end).
+
+## ✍🏾 Aulas
+
+-   [Tipos TS básicos]("./src/section19-basicTypes")
+-   [Tipos TS Avançados]("./src/section21-advancedTypes")
+-   [Tipos TS Genéricos]("./src/section22-genericTypes")
+-   [SOLID]("./src/section25-SOLID")
+-   [POO]("./src/section20-POO")
+-   [JEST]("./src/section26-Jest")
+-   [NamespacesAndModules]("./src/section24-Namespaces")
+-   [Decorators]("./src/section23-Decorators")
+
+## ✍🏾 Projetos
+
+-   [Pomodoro]("./projects/pomodoro")
+-   [Video Controls]("./projects/video")
+-   [Form Validation]("./projects/form")
 
 ## 📬 Contate-me
 
@@ -34,6 +49,10 @@ TypeScript - um superset do JavaScript com tipagem estática (front-end e back-e
     <img src="https://github.com/Ronald785/Ronald785/blob/master/images/gmail.svg" alt="Gmail-icon" width=50/>
   </a>
 </p>
+
+## 📝 Licença
+
+Lançado em 2023, 📝 [Licença MIT](./LICENSE)
 
 ---
 
