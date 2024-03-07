@@ -2,7 +2,7 @@
 
 ## Intenção
 
-*Converter a interface de uma classe em outra interface esperada pelos clientes. O Adapter permite que certas classes trabalhem em conjunto, pois de outra forma seria impossível por causa de suas interfaces incompatíveis.*
+_Converter a interface de uma classe em outra interface esperada pelos clientes. O Adapter permite que certas classes trabalhem em conjunto, pois de outra forma seria impossível por causa de suas interfaces incompatíveis._
 
 ---
 
@@ -30,9 +30,9 @@ Veja a pasta diagramas.
 
 Use o padrão Adapter quando:
 
-- você não quiser que seu código dependa diretamente de código de terceiros ou legado 
-- você quiser usar um classe existente mas sua interface for incompatível com a interface que seu código ou domínio precisam
-- você quiser reutilizar várias subclasses que não possuam determinada funcionalidade mas for impraticável estender o código de cada uma apenas para adicionar a funcionalidade desejada 
+-   você não quiser que seu código dependa diretamente de código de terceiros ou legado
+-   você quiser usar um classe existente mas sua interface for incompatível com a interface que seu código ou domínio precisam
+-   você quiser reutilizar várias subclasses que não possuam determinada funcionalidade mas for impraticável estender o código de cada uma apenas para adicionar a funcionalidade desejada
 
 ## Implementação - Teoria
 
@@ -45,9 +45,11 @@ Use o padrão Adapter quando:
 O que é bom ou ruim no Adapter:
 
 **Bom:**
-- Desacopla o código da aplicação de códigos de terceiros
-- Aplica o SRP ao separar a conversão de interfaces da lógica da aplicação
-- Aplica o OCP ao permitir introduzir novos Adapters para código existente
+
+-   Desacopla o código da aplicação de códigos de terceiros
+-   Aplica o SRP ao separar a conversão de interfaces da lógica da aplicação
+-   Aplica o OCP ao permitir introduzir novos Adapters para código existente
 
 **Ruim:**
-- Aumenta a complexidade da aplicação (Por outro lado, qual outra solução deveria ser aplicada?)
+
+-   Aumenta a complexidade da aplicação (Por outro lado, qual outra solução deveria ser aplicada?)
